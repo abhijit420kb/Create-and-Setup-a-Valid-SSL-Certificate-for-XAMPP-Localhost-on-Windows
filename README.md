@@ -101,6 +101,8 @@ Open `X:\xampp\apache\conf\httpd.conf` in notepad.
 
 Enable mod_vhost_alias `LoadModule vhost_alias_module modules/mod_vhost_alias.so` by remove `#`
 
+Need to edit `X:\xampp\apache\conf\extra\httpd-xampp.conf` or `X:\xampp\apache\conf\extra\httpd-vhosts.conf`
+
 ```
 ## local.test
 <VirtualHost *:80>
